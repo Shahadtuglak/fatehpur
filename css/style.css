@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:white;
+    font-family: 'Cormorant Garamond', serif !important;
+}
+
+hr{
+    margin: 0 !important;
+    padding:1px !important;
+}
+
+/*  Header  */
+header{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px !important;
+  
+
+}
+nav a{
+    text-transform: uppercase !important;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: serif;
+}
+
+
+/*Showcase*/
+.carousel{
+  
+    width: 100% !important;
+  
+}
+
+.showcaseimg{
+    height: 100vh !important;
+    width: 90%;
+    background-position: center center;
+}
+
+/* About */
+#about{
+    padding: 20px;
+    margin: 10px;
+   
+}
+#about h2{
+    text-align: center ;
+}
+
+
+/* Footer */
+footer{
+    text-align: center;
+    
+}
+footer a{
+    text-decoration: none;
+}
