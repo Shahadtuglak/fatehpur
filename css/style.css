@@ -62,6 +62,18 @@ nav a{
 }
 
 
+/* Map */
+#map{
+    margin: 20px 0 20px 0;
+    text-align: center;
+    
+}
+#map iframe{
+    height: 350px;
+    width: 90% !important;
+}
+
+
 /* Footer */
 footer{
     text-align: center;
